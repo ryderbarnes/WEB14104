@@ -1,0 +1,54 @@
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li
+{
+	padding: 1em;
+	background: rgb(202, 202, 202);
+	border-bottom: rgba(0, 0, 0, 0.47) 2px solid;
+
+
+}
+
+img
+{
+	max-width: 50%;
+	margin: auto;
+	display: block;
+	border-radius: 50%;
+
+	
+}
+.button
+{
+	background-color: black;
+	display: block;
+	margin: auto;
+	color: white ;
+	text-decoration: none;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	text-align: center;
+	font-size: 1em;
+}
+
+	/*ANIMATIONS*/
+
+.button{
+	/**/
+transition:all 1s linear;
+}
+
+.button:hover
+{
+	background:white;
+	color: black;
+}
+
+
+
+
