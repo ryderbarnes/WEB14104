@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+li:nth-child(odd) {
+    background: ;
+}
+
+li:nth-child(even) {
+    background: #F6E3CE;
+}
+
+#chicken{
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+    
+}
+
+}
+.hero-contain:hover {
+	background-size:110%;
+	transition:ease 0.5s;
+}
+
+h1 {
+	font-family:fantasy;
+	font-weight:bold;
+	font-style:italic;
+  font-size: 66px;
+  line-height: 72px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  transition:ease 0.5s;
+
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family:"Avenir Next";
+  font-weight:light;
+}
+li {margin:0;padding:5px;color:#323232;}
+
+
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}

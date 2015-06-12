@@ -1,0 +1,136 @@
+
+#nav-image {
+    width: 18%;
+}
+
+
+#body { padding:0; margin:0; font-family:"Helvetica Neue"; background-color:floralwhite;}
+
+#social-icons{
+    position:absolute;
+    top:40px;
+    right: 10px;
+ }
+
+#container { position:relative; top:0; width:100vw; height:600px; }
+
+#sidebar { position:relative; top:0; float:left; width: 20vw; height:600px;
+white-space: pre;  }
+
+#content { position:relative; top:0; float:right; width:80vw; height:600px; }
+
+#footer { top:0; width:100vw; height:300px; }
+
+#footer-one { position:relative; top:0; width:33.33vw; height:300px;  display:inline-block; margin:0; padding:0; float:left;}
+
+#footer-two { position:relative; top:0; width:33.33vw; height:300px;  display:inline-block;  margin:0; padding:0;  }
+
+#footer-three { position:relative; top:0; width:33.33vw; height:300px;  display:inline-block;  margin:0; padding:0; float: right; }
+
+
+#carasel {
+    margin-top: 18%;
+}
+
+li,ul { list-style-type: none;
+    
+}
+
+
+h4 {
+    padding:20px;
+    margin-top: 0;
+    font-family: "courier new"
+}
+
+
+
+h3 {
+    margin: 20px;
+    font-size: 30px;
+    font-family: "courier new"
+}
+
+p { margin:20px;
+}
+
+.footer-text {
+color: #3c3c3c;
+font-family: "courier new";   
+font-weight: 600;    
+}
+
+li.nav-text > a {
+    color: #3c3c3c;
+    font-family: "courier new";
+    font-weight: 800;
+}
+
+
+<--------------------Food page----------------------->
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+}
+
+#navcontainer ul li { display: inline;
+
+}
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: black;
+font-family:"courier new";
+    font-size: 6;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: lightgray;
+}
+
+.boxed {
+border: 1px solid black ;
+width: 700px;
+white-space: pre;
+height: 700px;   
+background-color: whitesmoke;
+    
+}
+
+#price {
+display: inline;
+}
+
+#menu-picture-1{
+    position:absolute;
+    top:250px;
+    right: 20px;}
+
+#menu-picture-2{ 
+    position:absolute;
+    top:600px;
+    right: 20px;}
+<--------------------About page----------------------->
+
+ #map-canvas {
+        width: 500px;
+        height: 400px;
+        background-color: #CCC;
+     
+      }
+-----------------
+#booking-image{ width: 300px; border: 1px solid red; float: left}
+
+#button-1
+{
+        height: 30px;
+        margin-left: auto ;
+  margin-right: auto ; }
+
